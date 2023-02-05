@@ -9,6 +9,7 @@
     "start:dev": "nodemon",
     "clean": "rimraf ./build",
     "lint": "eslint . --ext .ts",
+    "tsc": "tsc --noEmit",
     "format": "prettier --config .prettierrc 'src/**/*.ts' --write"
   },
   "repository": {
